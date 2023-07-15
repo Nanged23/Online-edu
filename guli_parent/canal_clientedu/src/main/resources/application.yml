@@ -1,0 +1,54 @@
+# 服务端口
+server:
+  port:
+    10000
+spring:
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr:
+#          127.0.0.1:8848
+  application:
+    name:
+      canal-client
+  profiles:
+    active:
+      dev
+  datasource:
+    driver-class-name:
+      com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8
+    username: root
+    password: root
+  jackson:
+    date-format:
+      yyyy-MM-dd HH:mm:ss
+    time-zone:
+      GMT+8
+#canal:
+#  server: 127.0.0.1:11111
+#  # canal instance名字
+#  destination: example
+#  server-mode: tcp
+#  # 消费的时间间隔(s)
+#  timeout: 2
+#  # canal 的用户名
+#  username: root
+#  # canal 的密码
+#  password: root
+#  sync:
+#    # canal监听的数据库名
+#    - database: guli
+#      tableInfo:
+#        # canal监听的表名
+#        - tableName: member
+#          # 本服务数据库同步的表名
+#          targetTableName: *
+#          # 字段映射，key:value多个逗号隔开   key为监控数据库表的字段，value为从库对应表的字段   *代表同步所有字段并且两个库表字段相同
+##          fieldMapping: "*"
+##          # id映射，key:value多个逗号隔开   key为监控数据库表的字段，value为从库对应表的字段，一样可以只写一个
+##          id: USER_CODE
+##        #        - tableName: t_org
+#        #          targetTableName: t_em_org
+#        #          fieldMapping: "*"
+#        #          id: ORG_ID
