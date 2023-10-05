@@ -4,13 +4,13 @@
       <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/com/fasterxml/jackson/core/jackson-databind/2.9.6-an1/jackson-databind-2.9.6-an1-annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Maven/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Maven/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../Maven/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Maven/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../Maven/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Maven/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
