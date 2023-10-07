@@ -1,0 +1,48 @@
+server:
+  port:
+    8007
+feign:
+  hystrix:
+    enabled: true
+# 设置熔断器的超时时间
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 6000
+spring:
+  main:
+    #允许存在多个Feign调用相同Service的接口
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr:
+          127.0.0.1:8848
+  application:
+    name:
+      service-order
+  profiles:
+    active:
+      dev
+  datasource:
+    driver-class-name:
+      com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8
+    username: root
+    password: root
+  jackson:
+    date-format:
+      yyyy-MM-dd HH:mm:ss
+    time-zone:
+      GMT+8
+mybatis-plus:
+  configuration:
+    #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
+    map-underscore-to-camel-case: true
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath:com/atguigu/eduservice/mapper/*.xml
+#  type-aliases-package: com.atguigu.eduservice.entity
+#logging.level.root=INFO

@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="aliyun-sdk-oss-3.10.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/aliyun-sdk-oss-3.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/commons-codec-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/json-20170516.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/json-lib-2.4-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/commons-lang-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/aliyun-java-vod-upload-1.4.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/aliyun-java-sdk-core-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/aliyun-java-sdk-vod-2.15.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/httpclient-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/fastjson-1.2.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/ezmorph-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/jdom-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../ali-jars/httpcore-4.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
