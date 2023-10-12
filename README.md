@@ -13,7 +13,7 @@
 ## 后端技术栈👇  
 
 * Spring、SpringBoot
-* SpringCloud
+* SpringCloud Alibaba系列组件
 * MybatisPlus
 * MySQL、Redis
 * Swagger
